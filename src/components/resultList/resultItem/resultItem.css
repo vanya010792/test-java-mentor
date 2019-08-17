@@ -1,0 +1,19 @@
+.result__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #EEEEEE;
+    margin-bottom: 10px;
+}
+.result__item:last-child {
+    margin-bottom: 0;
+}
+.result__item .img {
+    flex: 0 0 100px;
+    margin-right: 10px;
+}
+.result__item .description {
+    flex: 1 1 auto;
+}

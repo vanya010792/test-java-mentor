@@ -1,0 +1,31 @@
+.select__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select__list {
+    flex: 1 1 auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #2B7DE9;
+    outline: none;
+}
+.select__list option:checked {
+    background-color: #EEEEEE;
+}
+.select__btn {
+    flex: 0 0 140px;
+    background-color: #2B7DE9;
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: #ffffff;
+    border: 1px solid #2B7DE9;
+    cursor: pointer;
+    transition: color, background-color .3s;
+}
+.select__btn:hover {
+    color: #2B7DE9;
+    background-color: #ffffff;
+}
